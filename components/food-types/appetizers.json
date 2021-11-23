@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_food_types_appetizers",
+  "info": {
+    "name": "Appetizers",
+    "icon": "angle-left"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "foods": {
+      "collection": "food"
+    }
+  }
+}

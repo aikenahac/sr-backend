@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "specials",
+  "info": {
+    "name": "Specials"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "foods": {
+      "collection": "food"
+    }
+  }
+}

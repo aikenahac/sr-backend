@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_food_types_main_courses",
+  "info": {
+    "name": "MainCourses",
+    "icon": "angle-up"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "foods": {
+      "collection": "food"
+    }
+  }
+}

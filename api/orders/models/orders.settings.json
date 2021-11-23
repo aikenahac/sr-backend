@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "orders",
+  "info": {
+    "name": "Orders",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Table": {
+      "type": "string"
+    },
+    "foods": {
+      "collection": "food"
+    },
+    "customer": {
+      "type": "email"
+    },
+    "finished": {
+      "type": "boolean",
+      "default": false
+    },
+    "handled": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

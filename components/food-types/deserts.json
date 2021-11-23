@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_food_types_deserts",
+  "info": {
+    "name": "Deserts",
+    "icon": "angle-right"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "foods": {
+      "collection": "food"
+    }
+  }
+}

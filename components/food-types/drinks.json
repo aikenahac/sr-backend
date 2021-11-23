@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_food_types_drinks",
+  "info": {
+    "name": "Drinks",
+    "icon": "bong"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "foods": {
+      "collection": "food"
+    }
+  }
+}

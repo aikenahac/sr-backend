@@ -1,0 +1,24 @@
+{
+  "kind": "singleType",
+  "collectionName": "menus",
+  "info": {
+    "name": "Menu"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Menu": {
+      "type": "dynamiczone",
+      "components": [
+        "food-types.appetizers",
+        "food-types.deserts",
+        "food-types.drinks",
+        "food-types.main-courses"
+      ]
+    }
+  }
+}
