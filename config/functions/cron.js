@@ -40,6 +40,7 @@ module.exports = {
           <br/>
 
           Ordered food:
+          <br/>
 
           ${
             order.foods.map(food => (
