@@ -21,7 +21,7 @@ module.exports = {
       let orderTotal;
 
       order.foods.forEach(food => {
-        orderTotal += food.Price;
+        orderTotal += parseInt(food.Price);
       })
 
       await strapi.plugins['email'].services.email.send({
