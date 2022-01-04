@@ -29,17 +29,25 @@ module.exports = {
         from: 'no-reply@aerio.cloud',
         subject: 'Your order has been completed',
         text: `
+          <h1>
           Dear ${order.customer.split('@')[0]},
+          </h1>
+
+          <br/>
 
           Your order has been completed.
+
+          <br/>
 
           Ordered food:
 
           ${
             order.foods.map(food => (
-              `${food.Name}: ${food.Price} €\n`
+              `${food.Name}: ${food.Price} € <br/>`
             ))
           }
+
+          <br/>
 
           Total: ${orderTotal} €
         `
